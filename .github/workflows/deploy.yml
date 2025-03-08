@@ -30,8 +30,9 @@ jobs:
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
+	  name: github-pages
           path: public
 
   deploy:
@@ -42,5 +43,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+	id: deployment
+	uses: actions/deploy-pages@v4
+	
+	
+	
+	
