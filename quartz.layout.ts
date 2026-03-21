@@ -31,7 +31,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.TableOfContents(),
     Component.Graph({
-      localGraph: { fontSize: 0.45, linkDistance: 100 },
+      localGraph: { fontSize: 0.45, linkDistance: 30 },
       globalGraph: { fontSize: 0.45, linkDistance: 100 },
     }),
     Component.Backlinks(),
@@ -54,7 +54,7 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [
     Component.Graph({
-      localGraph: { fontSize: 0.45, linkDistance: 100 },
+      localGraph: { fontSize: 0.45, linkDistance: 30 },
       globalGraph: { fontSize: 0.45, linkDistance: 100 },
     }),
   ],
