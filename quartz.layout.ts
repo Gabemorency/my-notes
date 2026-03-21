@@ -29,9 +29,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.DesktopOnly(Component.Graph()),
-    Component.DesktopOnly(Component.Backlinks()),
+    Component.TableOfContents(),
+    Component.Graph({
+      localGraph: { fontSize: 0.42 },
+      globalGraph: { fontSize: 0.42 },
+    }),
+    Component.Backlinks(),
   ],
 }
 
@@ -50,6 +53,9 @@ export const defaultListPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.DesktopOnly(Component.Graph()),
+    Component.Graph({
+      localGraph: { fontSize: 0.42 },
+      globalGraph: { fontSize: 0.42 },
+    }),
   ],
 }

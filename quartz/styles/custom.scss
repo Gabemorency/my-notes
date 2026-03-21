@@ -664,3 +664,104 @@ label.darkmode {
   transition: opacity 0.2s ease;
   &:hover { opacity: 1; }
 }
+
+
+// ============================================================
+// MOBILE  (≤ 800px)
+// ============================================================
+
+@media (max-width: 800px) {
+
+  // --- Layout & spacing ---
+  .page > #quartz-body {
+    padding: 0 !important;
+  }
+
+  .page > #quartz-body .page-header {
+    padding: 0 1.1rem !important;
+  }
+
+  .page > #quartz-body .center {
+    padding: 0 1.1rem !important;
+  }
+
+  // --- Sidebar (top bar on mobile) ---
+  .sidebar {
+    padding: 1.25rem 1.1rem 0.75rem !important;
+  }
+
+  .page-title a {
+    font-size: 0.65rem !important;
+  }
+
+  // --- GEM banner ---
+  .gem-mark {
+    font-size: 4.2rem !important;
+    margin: 1.5rem 0 0.5rem -0.04em !important;
+    letter-spacing: -0.03em !important;
+  }
+
+  .gem-sub {
+    font-size: 0.58rem !important;
+    letter-spacing: 0.18em !important;
+    margin-bottom: 2rem !important;
+  }
+
+  // --- Article title ---
+  h1.article-title {
+    font-size: 2rem !important;
+    letter-spacing: -0.025em !important;
+  }
+
+  // --- Headings ---
+  article h1:not(.article-title) { font-size: 1.35rem !important; }
+  article h2 { font-size: 1.05rem !important; }
+  article h3 { font-size: 0.7rem !important; }
+
+  // --- Body text ---
+  article p, article li {
+    font-size: 0.97rem !important;
+    line-height: 1.75rem !important;
+  }
+
+  // --- Blockquote ---
+  blockquote {
+    padding: 0.9rem 1rem !important;
+    margin: 1.5rem 0 !important;
+  }
+
+  // --- Code ---
+  pre {
+    padding: 0.85rem 1rem !important;
+    font-size: 0.8rem !important;
+  }
+
+  // --- Content meta (date/read time) ---
+  p.content-meta {
+    margin-bottom: 1.25rem !important;
+  }
+
+  // --- Footer ---
+  footer {
+    margin-top: 3rem;
+    padding: 1rem 1.1rem 2rem !important;
+  }
+
+  // --- Right sidebar: show TOC, graph, backlinks stacked below content ---
+  .sidebar.right {
+    padding: 0 1.1rem 1.5rem !important;
+    gap: 1rem !important;
+    flex-direction: column !important;
+  }
+
+  // Force TOC visible on mobile (Quartz hides it by default)
+  .sidebar.right > .toc {
+    display: flex !important;
+    flex: unset !important;
+    width: 100% !important;
+  }
+
+  .graph > .graph-outer {
+    height: 200px !important;
+  }
+}
