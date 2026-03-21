@@ -2,9 +2,6 @@
 title: Welcome to Quartz
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
-
 # Systems. Intelligence. Infrastructure.
 
 Building scalable systems at the intersection of technology, knowledge, and human development.
@@ -80,3 +77,9 @@ The work here moves toward a future where:
 - [[blog]]
 - [[projects]]
 - [[notes]]
+=======
+test
+
+This is a blank Quartz installation.
+See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+
