@@ -764,4 +764,9 @@ label.darkmode {
   .graph > .graph-outer {
     height: 200px !important;
   }
+
+  // Smaller graph labels on mobile
+  .graph svg text {
+    font-size: 3px !important;
+  }
 }
