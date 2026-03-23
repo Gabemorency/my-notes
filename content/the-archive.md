@@ -9,25 +9,47 @@ The alternative to fragmented knowledge is not more storage. It is structure.
 
 The distinction sounds simple. In practice, it requires rethinking what a knowledge system is actually for — and that rethinking turns out to be harder than adopting a new tool.
 
+> *The goal is not a place to put things. The goal is a system that understands what it holds.*
+
 ## The Properties That Matter
 
 A knowledge infrastructure worth building has a specific set of properties. Not all of them are intuitive.
 
-**Local-first.** The knowledge lives where it was created — on a machine, in a folder, under version control — not locked inside a platform that can change its pricing, sunset its features, or simply disappear. Files that exist as plain text files will be readable in twenty years. Files that exist inside a proprietary system may not be.
+| Property | What it means | Why it matters |
+| --- | --- | --- |
+| **Local-first** | Knowledge lives on your machine, not in a vendor's cloud | Survives pricing changes, shutdowns, and platform lock-in |
+| **Relational** | Notes link to each other bidirectionally | Context is preserved alongside content |
+| **Durable** | Plain text format, no proprietary encoding | Readable in twenty years, on any device, with any tool |
+| **Selectively publishable** | Some content public, some private, some restricted | Useful for organizations, not just personal publishing |
+| **Version-controlled** | Every change is tracked and reversible | Institutional memory survives even when files change |
 
-**Relational.** Information is most useful when it is connected to other information. A note about a decision is more valuable when it links to the context that shaped the decision, the people who made it, and the outcomes it produced. A flat archive of files has none of this. A relational system does.
+> [!tip] Why plain text matters more than it seems
+> A knowledge base written in markdown today will be readable by any text editor that exists in the future. A knowledge base written inside a proprietary platform will be readable only as long as that platform chooses to keep it alive. The format is the infrastructure.
 
-**Durable.** The format should outlast the tool. Markdown is plain text. It can be read by any editor, indexed by any search system, committed to any version control repository, and rendered by any publishing layer. It has no lock-in. What you write today will be accessible in whatever environment you're working in ten years from now.
+## Local-First Is Not the Same as Offline
 
-**Selectively publishable.** Some knowledge should be public. Some should be private. A good system allows both, with meaningful control over what is shared and with whom. This is different from "make it a website" — it's closer to "build a controlled knowledge access layer."
+> [!info] A common misunderstanding
+> "Local-first" does not mean the system can't be shared or published. It means ownership stays with the creator. The knowledge lives in files you control — and from those files, you can publish anywhere, sync anywhere, and collaborate with anyone.
 
-**Version-controlled.** Every change should be traceable. Not just for software reasons — for institutional reasons. The ability to see what a document looked like six months ago, and who changed it, and when, is a form of institutional memory that most organizations simply don't have.
+This is the fundamental advantage over cloud-locked platforms: portability. You can move the system without moving your data. You can change the publishing layer without rebuilding the archive.
 
 ## What This Looks Like in Practice
 
 The architecture that meets these requirements is not a single tool. It is a stack — a set of components that each handle one layer of the problem well, and compose cleanly.
 
-The research this site documents is exploring whether a specific combination of those components can form a coherent, affordable, and deployable system for the organizations that need it most.
+```
+Local files (Markdown)
+    ↓  authored in
+Obsidian (knowledge graph)
+    ↓  published via
+Quartz (static site generator)
+    ↓  deployed to
+GitHub Pages (free hosting)
+    ↓  optionally secured by
+Cloudflare Access (access control)
+```
+
+The research this site documents is exploring whether this specific combination of components can form a coherent, affordable, and deployable system for the organizations that need it most.
 
 The [continuity](continuity) question sits at the center of this exploration.
 

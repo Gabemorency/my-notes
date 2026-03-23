@@ -11,9 +11,13 @@ Small businesses, emerging organizations, and new institutions consistently stru
 
 Enterprise-grade knowledge management solutions exist but carry costs and complexity that most resource-constrained organizations cannot absorb. As a result, these organizations face recurring knowledge loss at leadership transitions, compounding documentation gaps, and retrieval systems that degrade in usefulness over time rather than improving.
 
+> [!note] The pattern
+> Most knowledge loss in small organizations is not caused by negligence. It is caused by the absence of infrastructure designed to prevent it. The people were there. The information existed. The system just wasn't built to hold it.
+
 ## The Research Question
 
-Can a markdown-based, local-first knowledge architecture built on open-source tooling provide an affordable, relational, and selectively publishable knowledge infrastructure for small organizations and individuals — one that supports long-term institutional memory, structured retrieval, and version-controlled continuity?
+> [!quote]
+> Can a markdown-based, local-first knowledge architecture built on open-source tooling provide an affordable, relational, and selectively publishable knowledge infrastructure for small organizations and individuals — one that supports long-term institutional memory, structured retrieval, and version-controlled continuity?
 
 ## The Approach
 
@@ -21,12 +25,14 @@ This research is both conceptual and practical. The conceptual layer examines th
 
 The system under development uses:
 
-- **Obsidian** as the local-first knowledge creation and linking environment
-- **Markdown** as the durable, format-agnostic file standard
-- **Quartz** as the static site publishing layer
-- **GitHub / GitHub Pages** as the version-controlled, free deployment pipeline
-- **Access control layers** to support selective publishing and private knowledge management
-- **AI-assisted workflows** for synthesis, pattern recognition, and structured retrieval
+| Component | Role |
+| --- | --- |
+| **Obsidian** | Local-first knowledge creation and relational linking |
+| **Markdown** | Durable, format-agnostic file standard |
+| **Quartz** | Static site publishing layer |
+| **GitHub Pages** | Version-controlled, free deployment pipeline |
+| **Cloudflare Access** | Selective access control and private page management |
+| **AI workflows** | Synthesis, pattern recognition, and structured retrieval |
 
 The research treats this stack not as a collection of tools but as a coherent architecture — one designed to address the specific failure modes of existing approaches.
 
@@ -41,6 +47,7 @@ A successful outcome of this research would be a system that:
 5. Is durable enough to remain useful and accessible over a multi-year time horizon
 6. Can be extended with AI-assisted workflows as those capabilities mature
 
-The site you are reading is an instance of that system.
+> [!tip] This site is the proof of concept
+> The site you are reading was built using this exact stack. Every page is a markdown file. Every change is a git commit. The graph view exposes the relational structure. The hidden pages test the navigational layer. The system works — the question is how far it scales.
 
 → [[the-stack|The stack]]

@@ -1,4 +1,4 @@
-const userPref = "dark" // default to dark mode
+const userPref = "light" // default to light mode
 const currentTheme = localStorage.getItem("theme") ?? userPref
 document.documentElement.setAttribute("saved-theme", currentTheme)
 

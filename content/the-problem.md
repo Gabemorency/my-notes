@@ -14,11 +14,27 @@ The knowledge didn't leave all at once. It leaked out slowly, distributed across
 - A Notion page with no owner and no update date
 - An email chain that only three people were ever copied on
 
-These tools were built for **storage**, **communication**, and **task management**. They are genuinely good at those things. But they were not built for memory. Not for continuity. Not for the kind of structured, relational knowledge that lets an organization understand itself over time.
+These tools were built for **storage**, **communication**, and **task management**. They are genuinely good at those things. But they were not built for memory.
+
+> [!quote] The core tension
+> Every tool an organization uses was designed to solve a specific problem. None of them were designed to solve the problem of the organization understanding itself over time.
+
+## The Tools and What They're Actually For
+
+| Tool | Designed for | Not designed for |
+| --- | --- | --- |
+| Google Drive | File storage and sharing | Relational structure or retrieval |
+| Slack | Real-time communication | Persistent, searchable knowledge |
+| Notion | Flexible docs and databases | Long-term institutional continuity |
+| Email | Person-to-person messaging | Organizational memory |
+| Confluence | Team documentation | Affordable, local-first deployment |
+
+The problem isn't that teams are using the wrong tools. It's that there is no tool specifically designed for what they actually need.
 
 ## The Gap No One Names
 
-There is a category of problem that organizations consistently misdiagnose. They call it a communication problem, or a documentation problem, or a culture problem. But underneath most of those labels is something more structural: a knowledge infrastructure problem.
+> [!warning] The misdiagnosis
+> Organizations consistently call this a communication problem, a documentation problem, or a culture problem. It is usually none of those things. It is a knowledge infrastructure problem — and that distinction changes what the solution looks like.
 
 Information exists. It's just not organized in a way that makes it retrievable, connectable, or durable.
 
@@ -29,6 +45,14 @@ When people leave, what they take with them isn't just their files. It's the con
 ## Why Enterprise Solutions Don't Close the Gap
 
 Knowledge management platforms exist. Confluence. Guru. Tettra. Notion at enterprise scale. Some of them are genuinely sophisticated. But they share a common problem for most of the organizations that need them most: they are expensive, and they are built for organizations that already have the infrastructure — and the budget — to support them.
+
+| Platform | Starting cost | Built for |
+| --- | --- | --- |
+| Confluence | ~$600/yr (10 users) | Large engineering teams |
+| Guru | ~$1,200/yr (10 users) | Sales and support orgs |
+| Tettra | ~$1,200/yr (10 users) | Mid-size companies |
+| Notion (Enterprise) | ~$1,600/yr (10 users) | Well-funded startups |
+| **This stack** | **$0–$12/yr** | **Everyone else** |
 
 A startup with twelve people. A community organization with rotating leadership. A new research lab without a dedicated IT budget. These groups face the same fragmentation problem as large enterprises, but the enterprise solutions weren't designed with them in mind.
 
