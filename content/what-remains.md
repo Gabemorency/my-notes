@@ -45,8 +45,14 @@ If you've made it here, you've seen something most visitors to this site haven't
 
 The structure you see there is the argument.
 
+But the graph only shows what is linked.
+
+Not everything in this archive is linked.
+
 ---
 
-*This is the last page. There is nowhere left to follow.*
+*This is the last page the graph can show you.*
 
 *Unless you build something yourself.*
+
+<!-- you're still looking. good. /off-record -->

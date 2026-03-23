@@ -7,9 +7,9 @@ description: "This page is not linked from anywhere. You found it another way."
 
 This page does not exist in the navigation. It is not linked from any other page. It will not appear in the graph view.
 
-If you found it, you either looked at the raw repository, guessed the URL, or someone told you where to look.
+If you found it by reading the page source on `what-remains` — you caught the clue. If you found it another way, that's even better.
 
-That act — going outside the system to find what the system doesn't show — is actually the point.
+Either way: the act of looking outside the system to find what the system doesn't show is exactly what this research is about.
 
 ---
 
