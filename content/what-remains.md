@@ -47,7 +47,11 @@ The structure you see there is the argument.
 
 But the graph only shows what is linked.
 
-Not everything in this archive is linked.
+There is one more page in this archive.
+
+It has no links pointing to it. It will not appear in the graph. There is no path through this site that leads there — not from here, not from anywhere. You cannot navigate to it. You cannot search for it. You cannot find it by reading carefully.
+
+It exists. That is all I will tell you.
 
 ---
 
@@ -55,4 +59,4 @@ Not everything in this archive is linked.
 
 *Unless you build something yourself.*
 
-<!-- you're still looking. good. /off-record -->
+<!-- you're still looking. that's the right instinct. /off-record -->

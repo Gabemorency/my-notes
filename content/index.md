@@ -15,6 +15,6 @@ This site is a research project exploring why — and what a different kind of i
 
 It is also, in a small way, a prototype of that infrastructure.
 
-Navigate carefully. Not everything here is obvious.
+Navigate carefully. Not everything here can be found by navigating.
 
 → [[the-problem|The problem with memory]]
