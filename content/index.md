@@ -1,29 +1,20 @@
 ---
-title: " "
+title: "Gabe Morency"
+description: "A knowledge system in progress. An exploration of how organizations remember — and forget."
 ---
 
-<div class="gem-mark"><span class="gem-g">G</span><span class="gem-e">E</span><span class="gem-m">M</span></div>
-<p class="gem-sub">Systems · Intelligence · Infrastructure</p>
+# Start here.
 
-Building scalable systems at the intersection of technology, knowledge, and human development.
+Somewhere in your organization, there is a decision no one can trace back.
 
----
+It shaped how something works. Maybe it shaped how everything works. The person who made it has moved on, or the meeting where it happened was never written down, or the document that captured it is buried three folders deep in a Drive no one actively manages anymore.
 
-## What This Is
+This happens everywhere. In startups. In nonprofits. In universities. In teams that care deeply about their work and still end up with fragmented, inaccessible archives of everything they've learned.
 
-A living knowledge base. The goal is simple:
+This site is a research project exploring why — and what a different kind of infrastructure might look like.
 
-> Build systems that endure, adapt, and multiply impact.
+It is also, in a small way, a prototype of that infrastructure.
 
-## Current Focus
+Navigate carefully. Not everything here is obvious.
 
-- Designing a **local-first digital knowledge system**
-- Building **AI-assisted research and decision frameworks**
-- Exploring **sensor networks and intelligent systems**
-- Structuring information for long-term institutional memory
-
-## Direction
-
-The work here moves toward a future where knowledge is structured and compounding, systems outlast individuals, and technology enhances clarity — not noise.
-
-Explore the [[Table of Contents]] to find your way in.
+→ [[the-problem|The problem with memory]]
