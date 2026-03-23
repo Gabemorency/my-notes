@@ -37,9 +37,21 @@ Every change to the knowledge base is a commit. Every commit is traceable. The e
 
 ## The Access Control Question
 
-The open question in this stack is selective access. GitHub Pages with a public repository means everything is public. There are several approaches to adding access control — Cloudflare Access, private repository settings, the Quartz private pages plugin — each with different tradeoffs between simplicity, cost, and security.
+The open question in this stack is selective access. GitHub Pages with a public repository means everything is public — which works for a research site, but breaks the use case of an organization that needs to manage what different people can see.
 
-This remains an active area of exploration in the research.
+The target architecture for selective access looks like this:
+
+**Step 1 — Custom domain.** Cloudflare Access requires controlling DNS, which means a custom domain. A `.com` domain through Cloudflare Registrar runs about $10/year. GitHub Pages supports custom domains natively — you add a `CNAME` file to the repository root and configure the domain in repository settings.
+
+**Step 2 — Route through Cloudflare.** Once the domain is pointed at Cloudflare, all traffic runs through their network. This is free on Cloudflare's basic plan and adds CDN, DDoS protection, and — critically — the ability to attach access policies.
+
+**Step 3 — Cloudflare Access.** Cloudflare Access (free tier: up to 50 users) lets you put a login wall in front of specific URL paths. A policy like "require Google login for `/private/*`" means those pages are only reachable by authenticated users you approve. Everything outside that path remains public.
+
+**Step 4 — Private content in Quartz.** Quartz's `ignorePatterns` config already excludes a folder called `private` from the build. Reversing this — or creating a separate build target — means private notes stay out of the public site entirely and only surface through a separately managed access layer.
+
+The result: a single knowledge base with a public-facing research site and a private layer for internal or restricted content. One repository. One publishing pipeline. Two access tiers. Zero ongoing cost beyond the domain.
+
+This is the piece that makes the system viable for actual organizations — not just researchers publishing notes publicly. It is the next phase of this implementation.
 
 ---
 
