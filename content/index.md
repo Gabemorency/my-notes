@@ -1,5 +1,5 @@
 ---
-title: "Gabe Morency"
+title: "Research"
 description: "A knowledge system in progress. An exploration of how organizations remember — and forget."
 ---
 
