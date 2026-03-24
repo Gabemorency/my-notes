@@ -53,4 +53,4 @@ The research this site documents is exploring whether this specific combination 
 
 The [continuity](continuity) question sits at the center of this exploration.
 
-→ [[the-research|The research]]
+→ [[in-practice|In practice]]
