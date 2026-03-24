@@ -34,3 +34,5 @@ Obsidian's bidirectional links are one implementation of this principle. The Qua
 *This page is not linked from the main navigation. You found it by following something.*
 
 *There may be others.*
+
+→ [[the-why|Why this]]

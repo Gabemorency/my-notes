@@ -44,3 +44,5 @@ That's worth figuring out.
 ---
 
 *You followed two unlisted links to get here. There is one more path in this archive. It starts from [[the-archive|what should exist]].*
+
+→ [[the-stack|The stack]]

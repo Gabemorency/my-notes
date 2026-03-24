@@ -46,3 +46,5 @@ It is not complete. It is not perfect. But it demonstrates that the architecture
 ---
 
 *You followed a link most people missed. There is one page deeper.*
+
+→ [[what-remains|What remains]]

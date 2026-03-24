@@ -555,6 +555,24 @@ p.content-meta {
 
 
 // ============================================================
+// GRAPH EDGES
+// ============================================================
+
+.graph-outer svg line {
+  stroke-opacity: 0.35 !important;
+}
+html[saved-theme="light"] .graph-outer svg line,
+html:not([saved-theme]) .graph-outer svg line {
+  stroke: #8a6a3a !important;
+  stroke-opacity: 0.5 !important;
+}
+html[saved-theme="dark"] .graph-outer svg line {
+  stroke: #f97316 !important;
+  stroke-opacity: 0.3 !important;
+}
+
+
+// ============================================================
 // IMAGES
 // ============================================================
 
