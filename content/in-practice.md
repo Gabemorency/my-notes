@@ -16,13 +16,16 @@ Before that, their institutional knowledge lived across four Google Drives, two 
 They know exactly how much that cost them.
 
 > [!note] About this case study
-> The Commons Initiative is a fictional organization. The documents below are representative examples — built to show what each document type actually looks like inside a running knowledge system, not to describe a real institution.
+> The Commons Initiative is a fictional organization. The documents linked here are representative examples — built to show what each document type actually looks like inside a running knowledge system, not to describe a real institution.
 
 ---
 
 ## What Their Knowledge Base Contains
 
 The system is organized around five types of documents. Each one solves a different piece of the fragmentation problem.
+
+> [!tip] Navigate the knowledge base
+> Each entry in the table below is a live example of what these notes actually look like. They are linked relationally — the way they would be in a real vault.
 
 | Document type | What it captures | Why it matters |
 | --- | --- | --- |
@@ -41,9 +44,6 @@ Notes are written in Obsidian and committed to a private repository. Selected do
 The graph view is reviewed quarterly as part of their leadership transitions. New staff are onboarded using the decision log and governing documents before their first week ends. Contact notes are updated after every significant conversation.
 
 Eighteen months in, they conducted their third leadership transition. It took two weeks instead of four months.
-
-> [!tip] Navigate the knowledge base
-> Each document type below is a live example of what these notes actually look like. They are linked relationally — the way they would be in a real vault.
 
 ---
 
